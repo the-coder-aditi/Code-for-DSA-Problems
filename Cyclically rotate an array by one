@@ -1,0 +1,16 @@
+Input:1 2 3 4 5
+output: 5 1 2 3 4
+
+
+
+
+void rotate(int arr[], int n)
+{
+    int ans=arr[n-1];
+    for(int i=n-2;i>=0;i--){
+        arr[i+1]=arr[i];
+        
+    }
+    arr[0]=ans;
+        
+}
