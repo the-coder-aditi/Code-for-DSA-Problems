@@ -1,11 +1,11 @@
-Find the sum of maximum and minimum element in an array.
+/* Find the sum of maximum and minimum element in an array.
 Input:
 N = 5
 A[] = {-2, 1, -4, 5, 3}
 Output: 1
 Explanation: min = -4, max =  5. Sum = -4 + 5 = 1
 
-Code:
+Code:*/
 class Solution
 {
    public:
